@@ -9,6 +9,47 @@
 </head>
 
 <body>
+    <div class="flex-container">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="./img/logo.svg" alt="tic-tac-toe">
+                    <h1>Tic-Tac-Toe Game</h1>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <form action="">
+                    <div class="input-container">
+                        <input type="text" name="player1_name" id="player1_name" placeholder="Player 1 name (X)"
+                            required>
+                        <input type="text" name="player2_name" id="player2_name" placeholder="Player 2 name (O)"
+                            required>
+                    </div>
+                    <button type="submit" id="start" class="button">Start</button>
+                    <button type="button" id="restart" class="button hide">Restart</button>
+                </form>
+            </div>
+            <div class="board">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <h2 class="game-status">Enter your names to start the game</h3>
+        </main>
+        <footer>
+            <div class="container">
+                <h3>Made with love by Vo1dy-Labs</h3>
+            </div>
+        </footer>
+    </div>
     <script src="./js/index.js"></script>
 </body>
 
